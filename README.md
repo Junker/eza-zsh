@@ -1,36 +1,36 @@
 
-# Exa-zsh Plugin
+# Eza-zsh Plugin
 
-[Exa](https://github.com/ogham/exa) aliases plugin for zsh.
+[Eza](https://github.com/eza-community/eza) aliases plugin for zsh.
 
-This plugin defines useful aliases that can be used for `exa` the moden alternative of `ls`.
+This plugin defines useful aliases that can be used for `eza` the moden alternative of `ls`.
 
 
 
 ## Installation 
 This plugin is written with MacOS in mind. but it should work on any unix based OS.
 
-1. First, Install exa 
+1. First, Install eza 
 
 ```bash
-brew install exa
+brew install eza
 ```
 2. Clone this repository into zsh plugins folder 
    ```bash
     cd ~/.oh-my-zsh/custom/plugins
-    git clone https://github.com/MohamedElashri/exa-zsh
+    git clone https://github.com/Junker/eza-zsh
    ```
  or 
 
 ```bash
 cd $ZSH_CUSTOM/plugins/
-git clone https://github.com/MohamedElashri/exa-zsh
+git clone https://github.com/Junker/eza-zsh
 ```
 3. Add the plugin to `/.zshrc`
 
-   You should add `exa-zsh` to the plugin list 
+   You should add `eza-zsh` to the plugin list 
 
-   `plugins=(... exa-zsh)`
+   `plugins=(... eza-zsh)`
 
 4. Restart the terminal session
 
@@ -60,14 +60,14 @@ You can type in the alias in your terminal. This is a list of available aliasses
 
 | Alias | Command            | Help                                                     |
 |:-----:|:------------------:|:--------------------------------------------------------:|
-| ls    | exa                | just replace ls by exa and allow all other exa arguments |
+| ls    | eza                | just replace ls by eza and allow all other eza arguments |
 | l     | ls -lbF            | list, size, type                                         |
 | ll    | ls -la             | long, all                                                |
 | llm   | ll --sort=modified | list, long, sort by modification date                    |
 | la    | ls -lbhHigUmuSa    | all list                                                 |
 | lx    | ls -lbhHigUmuSa@   | all list and extended                                    |
-| tree  | exa --tree         | tree view                                                |
-| lS    | exa -1             | one column by just names                                 |
+| tree  | eza --tree         | tree view                                                |
+| lS    | eza -1             | one column by just names                                 |
 
   
 ## Contributing
